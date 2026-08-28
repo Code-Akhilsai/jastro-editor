@@ -112,9 +112,9 @@ Add screenshots of the editor, responsive preview, AI proposal, and history/reco
 
 Example:
 
-```md
-![Editor](docs/editor.png)
-```
+![image alt](https://github.com/Code-Akhilsai/jastro-editor/blob/a682d1a888c827baf5557716f7a31a99f6122c37/Screenshot%202026-08-28%20191945.png)
+
+![image alt](https://github.com/Code-Akhilsai/jastro-editor/blob/a682d1a888c827baf5557716f7a31a99f6122c37/Screenshot%202026-08-28%20192005.png)
 
 ## Documentation
 
