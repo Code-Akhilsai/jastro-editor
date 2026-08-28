@@ -69,7 +69,7 @@ Element-level recovery allows a previous state to be restored without unnecessar
 ```text
 src/
 ├── components/
-│   ├── AIPanel.tsx
+│   ├── Aipanel.tsx
 │   ├── Canvas.tsx
 │   ├── CodeEditor.tsx
 │   ├── EditorHeader.tsx
@@ -80,7 +80,7 @@ src/
 ├── data/
 │   └── template.ts
 ├── engine/
-│   └── aiDemo.ts
+│   └── demo.ts
 ├── types/
 │   └── template.ts
 ├── App.tsx
