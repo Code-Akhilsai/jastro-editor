@@ -296,9 +296,6 @@ function App() {
         selectedCount={selectedIds.length}
         onRun={handleAIRun}
         message={aiMessage}
-        hasProposal={aiProposal.length > 0}
-        onAccept={acceptAIProposal}
-        onReject={rejectAIProposal}
       />
 
       <ProposalPanel

@@ -4,18 +4,12 @@ type AIPanelProps = {
   selectedCount: number;
   onRun: (instruction: string) => void;
   message: string;
-  hasProposal: boolean;
-  onAccept: () => void;
-  onReject: () => void;
 };
 
 export default function Aipanel({
   selectedCount,
   onRun,
   message,
-  hasProposal,
-  onAccept,
-  onReject,
 }: AIPanelProps) {
   const [instruction, setInstruction] = useState("");
 
