@@ -19,7 +19,7 @@ The application does not depend on a live AI API for the assignment demo.
 Instead, the AI Assistant uses predefined deterministic scenarios in:
 
 ```text
-src/engine/aiDemo.ts
+src/engine/demo.ts
 ```
 
 The demo supports predefined instructions such as:
