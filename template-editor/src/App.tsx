@@ -156,7 +156,16 @@ function App() {
           };
 
           changes.forEach((change) => {
-            properties[change.property] = change.value;
+            const property = change.property;
+
+            if (
+              property === "content" ||
+              property === "color" ||
+              property === "backgroundColor" ||
+              property === "fontSize"
+            ) {
+              properties[property] = change.value as never;
+            }
           });
 
           return {
@@ -174,7 +183,16 @@ function App() {
         };
 
         changes.forEach((change) => {
-          overrides[scope][change.property] = change.value;
+          const property = change.property;
+
+          if (
+            property === "content" ||
+            property === "color" ||
+            property === "backgroundColor" ||
+            property === "fontSize"
+          ) {
+            overrides[scope][property] = change.value as never;
+          }
         });
 
         return {

@@ -6,7 +6,7 @@ type InspectorProps = {
   scope: "all" | Viewport;
   onScopeChange: (scope: "all" | Viewport) => void;
   onChange: (
-    property: keyof TemplateElement["properties"],
+    property: "content" | "color" | "backgroundColor" | "fontSize",
     value: string | number,
   ) => void;
 };
